@@ -1,0 +1,56 @@
+cpus:
+  - id: "Intel-2035"
+    type: "Air Cooling" # Options: "Air Cooling", "Water Cooling"
+    x_dim: 70.0         # X Dimension in mm
+    y_dim: 70.0         # Y Dimension in mm
+    z_dim: 5.0          # Z Dimension in mm
+    material: "SiC"
+    power: 150.0        # Power in Watts
+    activation_energy: 0.7  # Activation Energy
+      
+  - id: "Intel-5530"
+    type: "Air Cooling"   # Options: "Air Cooling", "Water Cooling"
+    x_dim: 100.0            # X Dimension in mm
+    y_dim: 70.0             # Y Dimension in mm
+    z_dim: 5.0              # Z Dimension in mm
+    material: "Si"
+    power: 250.0            # Power in Watts
+    activation_energy: 0.7  # Activation Energy     
+
+gpus:
+  - id: NVIDIA-A100
+    type: "Air Cooling"
+    x_dim: 60.0
+    y_dim: 60.0
+    z_dim: 5.0
+    material: "SiC"
+    power: 300.0
+    activation_energy: 0.7
+
+  - id: NVIDIA-H100
+    type: "Air Cooling"
+    x_dim: 60.0
+    y_dim: 60.0
+    z_dim: 5.0
+    material: "Si"
+    power: 400.0
+    activation_energy: 0.7
+    
+psus:
+  - id: "PSU1"
+    type: "Air Cooling"
+    x_dim: 180.0
+    y_dim: 40.0
+    z_dim: 70.0
+    material: "SiC"
+    power: 100.0
+    activation_energy: 0.7
+
+  - id: "PSU2"
+    type: "Air Cooling"
+    x_dim: 160.0
+    y_dim: 40.0
+    z_dim: 40.0
+    material: "Si"
+    power: 80.0
+    activation_energy: 0.9

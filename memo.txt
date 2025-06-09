@@ -1,0 +1,6 @@
+PowerSynthMostcool GUI: all QT/GUI related files, including pics/figs you draw for the tool. 
+
+'qt' contains the qt design ui files and converted python files
+'misc' contains components.yaml file (CPUs, GPUs, PSUs)
+
+each QT design project should be self-contained in its own folder
